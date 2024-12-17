@@ -2,6 +2,15 @@
 <img src='https://i.imgur.com/iXwyVul.png' />
 There are some features that we think SQLMap should have. Like finding admin panel of the target, better hash cracking etc. If you think the same, SQLMate is for you.
 
+OG sqlmate has been archived.  I enjoyed using the tool so I edited the sqlmate.py file to make it work with Python3. 
+To keep the enviroment isolated --
+cd to sqlmate
+python3 -m venv sqlmate
+source sqlmate/bin/activate
+The run pip install -r requirements.
+Run too by:
+pythone3 sqlmate.py
+If you get errors, feed the error to ChatGPT and following the troubleshooting steps.
 ## What it does?
 - Feed it a SQL injection dork via <b>--dork</b> option and it will find vulnerable sites for you. After that, it will try to find their admin panels and also try to bypass them with SQL queries.
 
