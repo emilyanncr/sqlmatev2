@@ -39,13 +39,13 @@ Then navigate to the sqlmate directory by entering this command
 ```
 cd sqlmate
 ```
-Now install the required modules
+python3 -m venv sqlmate
 ```
 pip install -r requirements.txt
 ```
 Now run sqlmate
 ```
-python sqlmate
+python3 sqlmate.py
 ```
 
 ##### Available command line options
